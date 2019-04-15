@@ -35,8 +35,8 @@ public class WebBrowse {
 			String Prod = driver.findElement(By.id("productTitle")).getText();
 			String Price = driver.findElement(By.id("priceblock_ourprice")).getText();
 			System.out.println(Prod);
-			logger.info("Product"+ Prod);
-			logger.info("Price" + Price);
+			logger.info("Product:  "+ Prod);
+			logger.info("Price:  " + Price);
 			//Logger.getLogger(name, resourceBundleName)(Price);
 			//Logger log = Logger.getLogger("Price");
 			
